@@ -1,0 +1,91 @@
+
+/* li{
+    list-style-type: none;
+}
+body{
+    height: 1200px;
+    background-color: #f2f2f2;
+}
+.drive{
+    width: 300px;
+    list-style: none;
+    box-shadow: 3px 3px 25px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border-radius: 5px;
+    /* max-height: 0px; */
+    /* overflow: hidden
+}
+.drive li:first-child a{
+    margin-top: 10px;
+}
+.drive.show{
+    max-height: 1000px;
+} 
+.drive a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #555;
+    transition: all 0.3s linear;
+
+}
+.drive a i{
+    float: left;
+}
+.drive a:hover{
+    background-color: rgb(197,192,192);
+}
+.drive a.bordered{
+    border-bottom: 1px solid rgb(197,192,192);
+} */ 
+
+.wrapper{
+    width: 432px;
+    height: 160px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;         
+}
+.wrapper .top{
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2px 2px;   
+    /* background-color: orange;   */
+}
+img{
+    width: 100px;
+    height: 75px;
+    display: inline-block;
+}
+.wrapper .top:hover{
+    cursor: pointer;
+}
+/* h1{
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+} */
+.contr{
+    width: 432px;
+    height: 160px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 40px;
+    /* position: fixed; */
+}
+.contr .top1{
+    width: 100px;
+    height: 75px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2px 2px;
+    /* background-color: orange; */
+}
+/* .contr .top1:hover{
+        cursor: pointer;
+} */
